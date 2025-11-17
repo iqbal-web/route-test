@@ -1,16 +1,16 @@
 <?php
 /**
- * Plugin Name: Bob The Builder
+ * Plugin Name: Route-Test
  * Description: A plugin to demonstrate new WordPress build system.
  * Version: 1.0.0
  * Author: Iqbal Hossain
- * Author URI: https://profile.wordpress.org/utsavladani/
+ * Author URI: https://profile.wordpress.org/iqbal1hossain/
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: bob-the-builder
+ * Text Domain: route-test
  */
 
-namespace BobTheBuilder;
+namespace RouteTest;
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
