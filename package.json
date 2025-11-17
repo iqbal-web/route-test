@@ -1,0 +1,25 @@
+{
+  "name": "@route-test/core",
+  "scripts": {
+    "build": "wp-build",
+    "dev": "wp-build --watch"
+  },
+  "wpPlugin": {
+    "scriptGlobal": false,
+    "packageNamespace": "route-test",
+    "pages": [
+      "route-test-homepage",
+	  "route-test-servicepage"
+    ]
+  },
+  "workspaces": [
+    "packages/*",
+    "routes/*"
+  ],
+  "devDependencies": {
+    "@wordpress/build": "^0.3.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.6.0",
+    "moment-timezone-data-webpack-plugin": "^1.5.1"
+  }
+}

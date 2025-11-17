@@ -1,0 +1,6 @@
+{
+  "route": {
+    "path": "/service",
+    "page": "route-test-servicepage"
+  }
+}

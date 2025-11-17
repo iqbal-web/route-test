@@ -1,0 +1,1 @@
+console.log('Hi from Bob The Builder Color package');

@@ -1,0 +1,110 @@
+/* Route-Test Service Page Styles */
+.route-test-service-stage {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.route-test-service-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.route-test-service-header h1 {
+    font-size: 2.5rem;
+    color: #1e1e1e;
+    margin-bottom: 0.5rem;
+}
+
+.route-test-service-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.route-test-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.route-test-services-grid .postbox {
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.route-test-services-grid .inside {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.route-test-service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.route-test-services-grid h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: #1e1e1e;
+}
+
+.route-test-services-grid .inside > p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.route-test-services-grid ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+.route-test-services-grid li {
+    color: #555;
+    margin-bottom: 0.25rem;
+}
+
+.route-test-service-cta {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+}
+
+.route-test-service-cta h2 {
+    color: #1e1e1e;
+    margin-bottom: 0.5rem;
+}
+
+.route-test-service-cta p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.route-test-cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Route-Test Service Inspector Styles */
+.route-test-checkbox-group {
+    margin-top: 0.5rem;
+}
+
+.route-test-checkbox-group label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.route-test-checkbox-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}

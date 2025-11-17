@@ -1,0 +1,102 @@
+/* Route-Test Home Page Styles */
+.route-test-home-stage {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.route-test-home-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.route-test-home-header h1 {
+    font-size: 2.5rem;
+    color: #1e1e1e;
+    margin-bottom: 0.5rem;
+}
+
+.route-test-home-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.route-test-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.route-test-feature-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.route-test-feature-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: #1e1e1e;
+}
+
+.route-test-feature-card p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.route-test-actions {
+    text-align: center;
+}
+
+.route-test-actions .button {
+    margin: 0 0.5rem;
+}
+
+/* Route-Test Inspector Styles */
+.route-test-inspector-section {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.route-test-inspector-section:last-child {
+    border-bottom: none;
+}
+
+.route-test-inspector-section h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+    font-size: 0.9rem;
+}
+
+.route-test-inspector-field {
+    margin-bottom: 0.75rem;
+}
+
+.route-test-inspector-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.route-test-stats {
+    background: #f9f9f9;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.route-test-stat {
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.route-test-stat:last-child {
+    margin-bottom: 0;
+}
